@@ -4,6 +4,7 @@ class Solution:
         curSum=0
         for num in nums:
             curSum=curSum + num
-            if curSum >  maxSum:
-                maxSum=curSum
-    return maxSum
+            maxSum=max(curSum,maxSum)
+            if curSum < 0:
+                curSum=0
+        return maxSum

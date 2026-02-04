@@ -8,10 +8,8 @@ class Solution:
         for j in range(0,n):        
             nums1.append(nums2[j])
             nums1.sort()
-        # print(nums1)
-                 
-        
-        # for i in range(0,m):
+        #print(nums1)
+                
             if 0 in nums1:
                 nums1.remove(0)
         print(nums1)

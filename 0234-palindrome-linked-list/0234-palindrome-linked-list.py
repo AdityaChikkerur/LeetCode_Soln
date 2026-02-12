@@ -33,7 +33,7 @@ class Solution:
             cur=temp
         # print(prev)
 
-        # Compare
+        # Compare two halves
         first=head
         second=prev
         while second!=None and first!=None:

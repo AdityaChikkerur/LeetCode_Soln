@@ -14,7 +14,7 @@ class Solution:
         q.append(None)
 
         if root is None:
-            return []
+            return c
        
         while q:
             curr=q.popleft()
